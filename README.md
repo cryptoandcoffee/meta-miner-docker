@@ -1,5 +1,7 @@
 # meta-miner-docker for use with nvidia-docker
 
+This container will work only if you have Docker AND nvidia-docker installed and configured on the host machine.
+
 Step 1:
 Git clone the repo and replace "your_wallet_here" in Dockerfile, start.sh, and mm_blank.json.
 
