@@ -1,1 +1,2 @@
-# multi-miner-docker
+# meta-miner-docker
+# for use with nvidia-docker
