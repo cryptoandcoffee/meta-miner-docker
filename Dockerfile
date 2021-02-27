@@ -10,6 +10,6 @@ RUN wget https://github.com/develsoftware/GMinerRelease/releases/download/2.39/g
 RUN export GMINER_COMMON="--server localhost:3339 --user your_wallet_here --pass gpu_miner"
 RUN export GMINER_LAST="gminer/miner $GMINER_COMMON"
 RUN export GMINER_39="gminer39/miner $GMINER_COMMON"
-COPY mm_blank.json /root/mm.json
+COPY mm_blank.json /mm.json
 COPY start.sh /root/
 ENTRYPOINT ["bash","-c","/root/start.sh"]
