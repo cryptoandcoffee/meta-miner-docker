@@ -2,7 +2,7 @@
 # for use with nvidia-docker
 
 Step 1:
-Replace "your_wallet_here" in Dockerfile, start.sh, and mm_blank.json.
+Git clone the repo and replace "your_wallet_here" in Dockerfile, start.sh, and mm_blank.json.
 
 Step 2:
 ```
