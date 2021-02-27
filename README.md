@@ -1,5 +1,4 @@
-# meta-miner-docker
-# for use with nvidia-docker
+# meta-miner-docker for use with nvidia-docker
 
 Step 1:
 Git clone the repo and replace "your_wallet_here" in Dockerfile, start.sh, and mm_blank.json.
